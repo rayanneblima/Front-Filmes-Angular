@@ -21,7 +21,8 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets/filmes.json"
             ],
             "styles": [
               "src/styles.css"
@@ -85,7 +86,8 @@
             "karmaConfig": "karma.conf.js",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "assets/filmes.json"
             ],
             "styles": [
               "src/styles.css"
@@ -119,6 +121,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "teste-code7"
+    }
+  },
+  "defaultProject": "teste-code7",
+  "cli": {
+    "analytics": "891a0074-0efa-444d-81f7-b477e177bcaf"
+  }
 }
